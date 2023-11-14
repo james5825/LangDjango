@@ -1,5 +1,17 @@
 # LangDjango
 
+Project description:
+- This is a Django project that provides a RESTful API for HTTP client.
+- The LLM is powered by COHERE API, can be replaced by local or other API.
+
+Implementation:
+- The API implementation is using Django and Django Rest Framework
+- Database is using Django ORM and PostgreSQL
+- The API documentation is using Swagger and drf-yasg, ways to access the API documentation is listed below [doc](#4-API-Documentation-and-Endpoints)
+- Architecture Diagram: [Architecture Diagram](#5-system-design-and-sequence-diagrams)
+- Unit Test: [Unit Test](#3-Run-the-test)
+
+
 ## 1. Setup Environment:
 - install requirements.txt
     ```
